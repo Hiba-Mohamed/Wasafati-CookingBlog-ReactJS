@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
     build: {
-    outDir: '/Wasafati-CookingBlog-ReactJS/dist', // Set the correct output directory
+    outDir: '/dist/Wasafati-CookingBlog-ReactJS/', // Set the correct output directory
   },
 })
