@@ -24,7 +24,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ https://hiba-mohamed.github.io/Wasafati-CookingBlog-ReactJS }}
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
