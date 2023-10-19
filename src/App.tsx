@@ -8,11 +8,7 @@ import { HashRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <HashRouter>
-          <Route path="/" element={<IntroPage />} />
-        </HashRouter>
-      </Routes>
+     HI
     </div>
   );
 }
