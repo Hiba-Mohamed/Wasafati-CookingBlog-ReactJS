@@ -23,6 +23,7 @@
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
     "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.2",
     "@types/babel__core": "^7.20.3",
     "@types/react": "^18.2.14",
     "@types/react-datepicker": "^4.11.2",
