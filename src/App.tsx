@@ -1,9 +1,9 @@
-
+import about1 from "./img/about1.png"
 
 function App() {
   return (
     <div className="App">
-    <img src="/about1.png" alt=""></img>
+<about1 />
     </div>
   );
 }
