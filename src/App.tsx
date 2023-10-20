@@ -3,7 +3,7 @@
 function App() {
   return (
     <div className="App">
-     HIjkcrjnerjcbncjewbcjfbewijcbnoujewbnjocnewondcjewnjcnweojcnolwencjnhjenchdebricbehwkdbchkbwbnchikbecdhikebdhed
+    <img src="/img/about1.png" alt=""></img>
     </div>
   );
 }
