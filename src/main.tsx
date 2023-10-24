@@ -2,12 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-
-ReactDOM.createRoot(document.getElementById("root")!).render(
+import { HashRouter} from "react-router-dom";
+const root = document.getElementById("root");
+if (root){
+ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
+      {" "}
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
+}
+else{console.error("no root found")}
+
+
