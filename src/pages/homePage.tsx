@@ -22,10 +22,16 @@ export function Homepage() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row mx-4 mb-4 gap-2">
-            <Link to="/listCategory" className="bg-red-900 hover:bg-red-300 text-center text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            <Link
+              to="/listCategory"
+              className="bg-red-600 hover:bg-red-300 text-center text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            >
               Explore Categories
             </Link>
-            <Link to="/submitRecipe" className="bg-stone-900 hover:bg-stone-500 text-white text-center font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            <Link
+              to="/submitRecipe"
+              className="bg-stone-900 hover:bg-stone-400 text-white text-center font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            >
               Submit Your Recipes
             </Link>
           </div>
