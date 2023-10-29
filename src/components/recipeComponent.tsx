@@ -1,7 +1,9 @@
 export function RecipePage() {
   return (
     <div className="min-h-screen flex flex-col items-center gap-6">
-      <h1 className="text-4xl sm:text-6xl font-bold pt-12 p-12">Recipe Name</h1>
+      <h1 className="text-4xl sm:text-6xl font-bold pt-12 sm:pb-12">
+        Recipe Name
+      </h1>
       <div className="flex flex-col sm:flex-row justify-evenly p-4 w-full items-center">
         <img
           src="src\img\appetizers-category.jpg"
