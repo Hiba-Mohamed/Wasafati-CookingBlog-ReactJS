@@ -1,3 +1,5 @@
+import recipePic from "../img/appetizers-category.jpg"
+
 export function RecipePage() {
   return (
     <div className="min-h-screen flex flex-col items-center gap-6">
@@ -6,7 +8,7 @@ export function RecipePage() {
       </h1>
       <div className="flex flex-col sm:flex-row justify-evenly p-4 w-full items-center">
         <img
-          src="src\img\appetizers-category.jpg"
+          src={recipePic}
           className="rounded-3xl shadow-xl w-48 sm:w-72"
           alt=""
         ></img>

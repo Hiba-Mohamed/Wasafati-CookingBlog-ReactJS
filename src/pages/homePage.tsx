@@ -25,7 +25,7 @@ export function Homepage() {
           <div className="flex flex-col sm:flex-row mx-4 mb-4 gap-2">
             <Link
               to="/listCategory"
-              className="bg-red-600 hover:bg-red-300 text-center text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-yellow-600 hover:bg-yellow-300 text-center text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             >
               Explore Categories
             </Link>
