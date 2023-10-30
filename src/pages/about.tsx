@@ -1,5 +1,4 @@
 import about1 from "../img/about1.png";
-import about2 from "../img/about2.png";
 import about3 from "../img/about3.png";
 import about4 from "../img/about4.png";
 import logo from "../img/logo-wasafati.png";
