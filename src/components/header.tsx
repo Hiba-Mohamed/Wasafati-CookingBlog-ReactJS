@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import logo from "../img/logo-wasafati.png";
+
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -9,7 +11,7 @@ export function Header() {
       <div className="py-2 sm:px-8 px-4 flex flex-row justify-between">
         <Link to="homePage">
           {" "}
-          <img src="src\img\logo-wasafati.png" className="sm:w-14 w-10"></img>
+          <img src={logo} className="sm:w-14 w-10"></img>
         </Link>
         <button
           className="p-2 text-stone-500 font-bold rounded-2xl"

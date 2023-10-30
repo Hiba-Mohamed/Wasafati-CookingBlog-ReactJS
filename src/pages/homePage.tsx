@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import bannerPic from "../img/wasafati-banner.png"
 
 export function Homepage() {
   return (
     <div className="flex flex-col items-center min-h-screen py-10">
       <div className="flex flex-col sm:flex-row items-center sm:flex-row-reverse  sm:p-2 max-w-6xl">
         <img
-          src="/src/img/wasafati-banner.png"
+          src={bannerPic}
           alt="Wasafati logo in the middle, and around it six pciture of various food and cooking ingredients"
           className="p-4 w-64 sm:w-96"
         />
